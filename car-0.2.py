@@ -14,6 +14,6 @@ while True:
     motor_pair.move_tank(motor_pair.PAIR_1, 500, 500)
 
     # Perform tank turn for 5 seconds
-    await motor_pair.move_tank_for_time(motor_pair.PAIR_1, 1000, -1000, 5000)
+    # await motor_pair.move_tank_for_time(motor_pair.PAIR_1, 1000, -1000, 5000)
 
 runloop.run(main())
